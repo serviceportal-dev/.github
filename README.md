@@ -1,2 +1,5 @@
-# .github
-Setup siehe: https://github.com/serviceportal-dev/web
+# Serviceportal
+
+## Setup
+
+Siehe: https://github.com/serviceportal-dev/web
