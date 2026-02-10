@@ -18,10 +18,8 @@
 
 ## Backend (Controller)
 
-1. `cd /usr/local/lib/site_perl`
-2. `git clone git@github-modules:serviceportal-dev/ScreenPoint.git`
-3. `cd /usr/local/lib/site_perl`
-4. `git clone git@github-autoload:serviceportal-dev/ScreenPoint.git`
+1. `git clone git@github-modules:serviceportal-dev/ScreenPoint.git`
+2. `git clone git@github-autoload:serviceportal-dev/ScreenPoint.git`
 
 <!--
 
