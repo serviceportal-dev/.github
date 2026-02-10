@@ -4,17 +4,24 @@
 
 ## Installation
 
+## Front-end (Templates)
+
 `cd /var/www/`
 
 1. `git init`
-
 2. `git remote add origin git@github-serviceportal:serviceportal-dev/web.git`
-
 3. `git pull`
 
 ## Lokal den Branch main aktivieren:
 
 `git switch -c main origin/main`
+
+## Backend (Controller)
+
+1. `cd /usr/local/lib/site_perl`
+2. `git clone git@github-modules:serviceportal-dev/ScreenPoint.git`
+3. `cd /usr/local/lib/site_perl`
+4. `git clone git@github-autoload:serviceportal-dev/ScreenPoint.git`
 
 <!--
 
