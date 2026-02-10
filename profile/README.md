@@ -19,7 +19,7 @@
 
 1. `cd /usr/local/lib/site_perl`
 2. `git clone git@github-modules:serviceportal-dev/ScreenPoint.git`
-3. `git clone git@github-autoload:serviceportal-dev/ScreenPoint.git`
+3. `git clone git@github-autoload:serviceportal-dev/auto.git`
 
 <!--
 
