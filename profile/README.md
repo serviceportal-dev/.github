@@ -17,12 +17,6 @@ cd /var/www/
 
 git switch -c main origin/main
 
-## Schreibrechte für Uploads
-chown -R www-data html
-
-## Schreibrechte für QR-Code:
-chown -R www-data html/images/temp
-
 <!--
 
 **Here are some ideas to get you started:**
