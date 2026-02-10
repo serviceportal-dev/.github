@@ -3,7 +3,6 @@
 ## Hi there 👋
 
 ## Setup
---------
 
 cd /var/www/
 
