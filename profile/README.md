@@ -6,11 +6,11 @@
 
 `cd /var/www/`
 
-1.) `git init`
+1. `git init`
 
-2.) `git remote add origin git@github.com:serviceportal-dev/web.git`
+2. `git remote add origin git@github.com:serviceportal-dev/web.git`
 
-3.) `git pull`
+3. `git pull`
 
 ## Lokal den Branch main aktivieren:
 
