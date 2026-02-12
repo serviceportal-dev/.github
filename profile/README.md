@@ -4,6 +4,23 @@
 
 ## Installation
 
+## Docker (lokal)
+
+### Windows (PowerShell)
+
+```powershell
+docker run --hostname=serviceportal.example.ch --name "test-serviceportal" `
+    --env=NODE_ENV=development `
+    --env=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin `
+    --env=DB_HOST="h2.example.ch" `
+    --env=DB_NAME="db_serviceportal" `
+    --env=DB_PASS="**********" `
+    --network=bridge -p 8080:80 `
+    --restart=no `
+    --runtime=runc -d `
+    mrs:deb12-602121
+``` 
+
 ## Front-end (Templates)
 
 1. `cd /var/www/`
