@@ -7,13 +7,7 @@
 ## Front-end (Templates)
 
 1. `cd /var/www/`
-2. `git init`
-3. `git remote add origin git@github-serviceportal:serviceportal-dev/web.git`
-4. `git pull`
-
-## Lokal den Branch main aktivieren:
-
-`git switch -c main origin/main`
+2. `git clone git@github-serviceportal:serviceportal-dev/html.git`
 
 ## Backend (Controller)
 
