@@ -21,12 +21,6 @@
 2. `git clone git@github-modules:serviceportal-dev/ScreenPoint.git`
 3. `git clone git@github-autoload:serviceportal-dev/auto.git`
 
-## Erforderliche Deploy Keys
-
-- ~/.ssh/serviceportal_deploy_key
-- ~/.ssh/algonetic_deploy_key_modules
-- ~/.ssh/algonetic_deploy_key_autoload
-
 <!--
 
 **Here are some ideas to get you started:**
