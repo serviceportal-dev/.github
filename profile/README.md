@@ -16,7 +16,7 @@ docker run --hostname=serviceportal.example.ch --name "serviceportal-local" `
     --env=DB_PASS="**********" `
     --network=bridge -p 8080:80 `
     --restart=no `
-    mrs:deb12-602121
+    algonetic/deb12-mason:latest
 ``` 
 
 ## Front-end (Templates)
