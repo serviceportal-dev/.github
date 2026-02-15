@@ -80,7 +80,7 @@ networks:
 
 ```
 
-### Windows (PowerShell) für Container-Start mit Datenbank auf externem DB-Server
+### Windows (PowerShell): Start des Serviceportal-Containers mit externer Datenbank
 
 ```powershell
 docker run --hostname=serviceportal.example.ch --name "serviceportal-local" `
