@@ -1,7 +1,5 @@
 # Serviceportal
 
-## Hi there 👋
-
 ## Installation
 
 ## Lokale Entwicklungsumgebung mit Docker Compose
@@ -37,7 +35,7 @@ DB_LOAD_DEMO_DATA=true
 kann beim ersten Start automatisch eine minimale Demodatenbasis geladen werden.
 Dies ermöglicht eine sofortige Inbetriebnahme ohne manuelle Datenbankinitialisierung.
 
-### Hinweis zum Datenbankpasswort
+### Hinweis zum Datenbankpasswort 👋
 
 Das in der docker-compose.yml definierte Passwort ist kein produktives oder sicherheitsrelevantes Passwort.
 
