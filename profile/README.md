@@ -12,7 +12,7 @@ Die Konfiguration ist ausschliesslich für lokale Entwicklungs- und Testzwecke v
 
 ## Funktionsweise
 
-Beim Start werden zwei Container erstellt:
+Beim Start werden in der Variante über das `docker-compose.yml`-File zwei Container erstellt:
 
 - **Web-Container (`serviceportal-local`)**  
   Enthält die Applikation und stellt sie lokal über Port `8080` bereit.
