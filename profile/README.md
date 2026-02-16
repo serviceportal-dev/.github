@@ -41,7 +41,7 @@ Das in der `docker-compose.yml` definierte Passwort ist kein produktives oder si
 
 ### docker-compose.yml
 
-```powershell
+```yaml
 name: serviceportal
 
 services:
