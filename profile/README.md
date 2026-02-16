@@ -80,9 +80,11 @@ networks:
 
 ```
 
-### Windows (PowerShell): Start des Serviceportal-Containers mit externer Datenbank
+### Variante: Start des Serviceportal-Containers mit externer Datenbank (Windows PowerShell)
 
-```powershell
+Geben Sie beim Erstellen des Containers mit docker run die Verbindungsparameter zu Ihrer externen Datenbank an.
+
+```console
 docker run --hostname=serviceportal.example.ch --name "serviceportal-local" `
     --env=NODE_ENV=development `
     --env=DB_HOST="dbhost.example.ch" `
@@ -93,12 +95,14 @@ docker run --hostname=serviceportal.example.ch --name "serviceportal-local" `
     algonetic/deb12-mason:latest
 ``` 
 
-## Front-end (Templates)
+## Source Code
+
+### Front-end (Templates)
 
 1. `cd /var/www/`
 2. `git clone git@github-serviceportal:serviceportal-dev/html.git`
 
-## Backend (Controller)
+### Backend (Controller)
 
 1. `cd /usr/local/lib/site_perl`
 2. `git clone git@github-modules:serviceportal-dev/ScreenPoint.git`
