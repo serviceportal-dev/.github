@@ -37,7 +37,7 @@ Dies ermöglicht eine sofortige Inbetriebnahme ohne manuelle Datenbankinitialisi
 
 ### Hinweis zum Datenbankpasswort 👋
 
-Das in der `docker-compose.yml` definierte Passwort ist kein produktives oder sicherheitsrelevantes Passwort, muss jedoch unverändert bleiben, da es für das automatische Laden der Demodaten in der lokalen Entwicklungsumgebung erforderlich ist.
+Das in der `docker-compose.yml` definierte Passwort ist kein produktives oder sicherheitsrelevantes Passwort, muss jedoch unverändert bleiben, da es für das automatische Laden der **Demodaten** in der lokalen Entwicklungsumgebung erforderlich ist.
 
 ### docker-compose.yml
 
